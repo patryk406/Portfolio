@@ -1,0 +1,52 @@
+/* 
+Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .caption h1 {
+    font-size: 2rem;
+  }
+  .caption h3 {
+    font-size: 1.4rem;
+  }
+  .down {
+    border: none;
+  }
+  .down svg.svg-inline--fa {
+    height: 50px;
+    width: 50px;
+    margin-top: 50px;
+  }
+  h1.title {
+    font-size: 30px;
+  }
+  #headingOne > h2 > button > h3,
+  #headingTwo > h2 > button > h3,
+  #headingThree > h2 > button > h3 {
+    font-size: 20px;
+  }
+  #contact > div > img {
+    height: 150px;
+  }
+}
+@media (min-width: 576px) and (max-width: 1024px) {
+  .caption h1 {
+    font-size: 2.5rem;
+  }
+  .caption h3 {
+    font-size: 1.8rem;
+  }
+  h1.title {
+    font-size: 34px;
+  }
+  #headingOne > h2 > button > h3,
+  #headingTwo > h2 > button > h3,
+  #headingThree > h2 > button > h3 {
+    font-size: 25px;
+  }
+  #contact > div > img {
+    height: 200px;
+  }
+}
