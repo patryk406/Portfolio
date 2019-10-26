@@ -20,7 +20,7 @@ body {
   font-size: 0.8rem;
   font-weight: bold;
   letter-spacing: 0.1rem;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 1) !important;
 }
 .navbar-brand img {
   height: 3rem;
@@ -45,7 +45,7 @@ body {
 }
 /* Landing Page */
 .home-inner {
-  background: url(./img/landing.jpg);
+  background: url(./img/bg-landing.jpg);
 }
 .caption {
   width: 100%;
