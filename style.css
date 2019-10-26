@@ -12,7 +12,22 @@ body {
   height: 5rem;
   margin-top: -3.5rem;
 }
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+  background: black;
+}
 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #d4af37;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b08f26;
+}
 /* Navigation */
 
 .navbar {
